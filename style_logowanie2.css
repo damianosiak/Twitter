@@ -1,0 +1,61 @@
+html, body, #containerx
+{
+    height:100%; 
+    width: 100%;
+    margin: 0;
+    background-color:#e6ecf0;
+}
+
+#panel_logowania
+{
+    width:40%;
+    height:25%;
+    background-color:#fff;
+    position:absolute;
+    left:30%;
+    top:10%;
+    text-align: center;
+}
+#logowanie_formularz
+{
+    position:relative;
+    top:5%;
+}
+
+#l_login, #l_haslo
+{
+    width:50%;
+    height:20px;
+    font-size:16px;
+}
+
+#l_potwierdz
+{
+    width:51%;
+    height:32px;
+    font-size:16px;
+    background-color:#1da1f2;
+    font-weight:bold;
+    color:white;
+}
+
+#l_dodatkowe
+{
+    height:20%;
+    background-color:#f5f8fa;
+    
+}
+
+.l_dodatki
+{
+    color:#1c94e0;
+    text-decoration: none;
+    position:relative;
+    top:25%;
+}
+
+#wynik
+{
+    color:red;
+    font-weight:bold;
+}
